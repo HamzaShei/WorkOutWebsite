@@ -1,0 +1,142 @@
+/* Hamza Sheikh*/
+
+div {		/* Requirement 8 style the div*/
+ border-style: dashed;
+ border: 5px solid black;
+ border-radius: 10px 10px;
+ border-color: orange;
+}
+
+
+.p{ 				/* Requirement 1 style a class 1*/
+	font-family: cursive, Lucida Console;
+	color: white;
+}
+
+.octo{ 				/* Requirement 1 style a class 2*/
+	background:  #41b3a3;
+	border: 3px solid black;
+	border-style: groove;
+	border-radius: 50px 50px;
+}
+
+.border{ 			/* Requirement 1 style a class 3*/
+	 background-color: orange;
+	 border: 5px solid black;
+	 border-style: groove;
+	 border-radius: 50px 50px;
+	 font-size: 24pt;
+	 color: white;
+}
+
+.html{ 				/* Requirement 1 style a class 4*/
+	padding: 10px;
+	background-color: #e37e19;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.table{ 				/* Requirement 1 style a class 5*/
+	background-color: #41b3a3;
+	color: white;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+#h1{ 			/* Requirement 2 style an id 1*/
+	border: 3px solid black;
+	font-size: 40px;
+	color: white;
+	}
+
+
+#h2{ 			/* Requirement 2 style an id 2*/
+	border: 3px solid black;
+	font-size: 25px;
+	color: white;
+	}
+
+
+#text{ 
+    background-color: 	#FF69B4; /* Requirement 2 style an id 3*/
+	padding: 20px;
+	border: 3px solid black;
+	border-style: groove;
+	border-radius: 50px 50px;
+}
+
+
+h1, h2, h3, h4, h5, h6{ 				/* Requirement 3 style a heading*/
+	font-size: 18pt; 
+	padding: 10px;
+	color: white;
+}   
+     
+a{				/* Requirement 4 style the a tags*/
+	
+	
+}
+header, footer{  		/* Requirement 5/6  style a header and footer*/
+	padding: 10px;
+	text-align: center;
+	background: #2091c9;
+	color: black;
+	font-size: 20px;
+		
+}
+
+.button { /* Requirement 7Style the <button> element.*/
+ 
+  background-color: #41b3a3;
+  border: 3px solid black;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-style: groove;
+border-radius: 50px 50px;
+}
+
+
+
+ul, ol{			/* Requirement 9 style ol li*/
+  background:  #41b3a3;
+  padding: 20px;
+}
+
+
+li{			/* Requirement 10 style ol li*/
+  background: #85DCBA;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+table{ 		/* Requirement 11 style a table, th, td*/
+	width: 100%;
+	border: 1px solid black;
+	
+}
+
+th, td{			/* Requirement 11 style a table, th, td*/
+	height: 50px;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid black;
+} 
+
+a:link { /* requrement 4 normal*/
+  color: red;
+}
+
+
+a:visited { /* requrement 4 visited */
+  color: orange;
+}
+
+/* mouse over link */
+a:hover { /* requrement 4 hover*/
+  color: yellow;
+}

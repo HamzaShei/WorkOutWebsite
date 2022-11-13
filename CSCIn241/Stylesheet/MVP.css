@@ -1,0 +1,65 @@
+.section{
+	font-size: 40px;
+	 text-align: center; 
+	  
+}
+
+body,fieldset{
+    font-family: monospace;
+    background-color: lightblue;
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+img, fieldset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+legend{
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+	 font-weight: bold;
+}
+
+
+header, footer{
+    text-align: center;
+    padding: 40px;
+    clear: both;
+}
+
+.margin{
+    margin: 35px;
+}
+
+.div{
+	width: 95%;	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fLeft{
+	float: left;
+	width: 500px;
+	
+}
+
+#fRight {
+	float: right;
+	width: 500px;
+	padding: 40px;
+}
+
+

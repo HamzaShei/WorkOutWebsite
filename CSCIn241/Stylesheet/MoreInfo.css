@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.imgright{ 
+	
+    float: right;
+}
+
+.imgleft{ 
+	
+    float: left;
+}
+
+
+/* floats logo left and right in header */
+.logo{
+	
+	float: left;
+}
+
+.logoright{ 
+	
+    float: right;
+}
+
+
+ 
+
+body { 
+	
+	font-size:medium;
+	text-align: center;
+	background-color: #E5E5E5;
+}
+
+h1,h2{
+font-family: serif; 
+	
+	
+}
+
+p{
+font-size:large;
+font-family: Fantasy; 
+	
+}
+
+
+.h1{ 
+	width:100%;
+    height: 80px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center; 
+    font-size: 50px;
+}
+
+.h2{ 
+	width:100%;
+    height: 40px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center;  
+    font-size: 24px;
+}
+
+
+
+
+
+.center{
+	border: thin red solid;
+	padding:20px;
+	width:18%;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: Auto;
+	
+}
+
+#left{
+margin-right:200px;
+	
+}
+
+#right{
+margin-left: 200px;
+	
+}
+
+
+
+.footer{
+	width:100%;
+    height: 50px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center; /*Requirement 8. 6 of the following*/
+    font-size: 25px;
+}
+
+
+caption {
+	
+	font-size: 120%;
+	
+	margin-bottom: 10px
+}
+
+#header
+{
+font-size:medium;
+	
+	text-align: left;
+
+}
+
+ /*roll over effect*/
+a:hover {
+  background-color: yellow;
+}
+

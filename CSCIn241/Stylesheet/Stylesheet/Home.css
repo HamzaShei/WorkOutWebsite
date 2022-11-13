@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.imgright{
+	 margin-left: auto;
+    margin-right: Auto;
+}
+
+.imgleft{ 
+	margin-left: auto;
+    margin-right: Auto;
+}
+
+.logo{
+	
+	float: left;
+}
+
+.logoright{ 
+	
+    float: right;
+}
+
+
+body { 
+	
+	font-size:medium;
+	
+	text-align: center;
+}
+
+.h1{ 
+	width:100%;
+    height: 80px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center; 
+    font-size: 50px;
+	
+}
+
+.h2{ 
+	width:100%;
+    height: 40px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1,h2{
+font-family: serif; 
+}
+
+p{
+font-size:large;
+font-family: Fantasy; 
+	
+}
+blockquote{
+font-size: large;
+	
+}
+
+/* overrides the p element */
+#about{
+	font-size:large;
+	font-family: serif;
+	
+}
+
+
+/* centers and puts borders around p elements */
+.center{
+	border: thin red solid;
+	padding:20px;
+	width:18%;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: Auto;
+	
+}
+
+#left{
+margin-right:60px;
+	
+}
+
+#right{
+margin-left: 60px;
+	
+}
+
+
+
+.footer{
+	width:100%;
+    height: 50px;
+    background-color:red;
+    border: 2px solid black;
+    text-align: center; /*Requirement 8. 6 of the following*/
+    font-size: 25px;
+	
+}
+
+
+
+#header
+{
+font-size:medium;
+	
+	text-align: left;
+
+}
+
+@font-face {
+  font-family: Font;
+  src: url('fonts/Piratekeg.ttf');
+}
+
+
+
+
+a:hover {
+  background-color: red;
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	
+	font-size:medium;
+	
+	text-align: center
+
+}
+
+
+table {
+	
+	border:  solid black;  /* 9.Specify a border style for your <table>, <th>, and/or <td>.*/
+	
+	border-collapse: collapse
+	
+	
+}
+
+td {
+	
+	border: thin solid black; /* 9.Specify a border style for your <table>, <th>, and/or <td>.*/
+	
+	
+	padding:10px;
+	
+	border-left: solid thin black
+	
+	
+}
+
+th{
+	
+	border:thin solid black; /* 9.Specify a border style for your <table>, <th>, and/or <td>.*/
+	
+	
+	background-color:#33c2ff
+}
+
+
+#list {  /* 10.Nest a styled list inside at least one of your <td> cells. */
+	
+	font-size:80%;
+	
+	list-style-type: circle;
+	
+
+	
+	padding:3px;
+	
+	padding-left: 15px;
+	
+	
+}
+
+.days {
+	
+	background-color:#33c2ff
+	
+	
+	
+}
+
+
+.workout {
+	background-color:#33ffe0  /* 8.specify at least three different background colors to represent either different activities or different people in your schedule. */
+}
+
+.school{
+	
+	background-color:#33ff8b /*8.specify at least three different background colors to represent either different activities or different people in your schedule */
+}
+
+
+.study{
+	
+	
+	background-color:#33a7ff /*8.specify at least three different background colors to represent either different activities or different people in your schedule */
+}
+
+
+caption {
+	
+	font-size: 120%;
+	
+	margin-bottom: 10px
+}

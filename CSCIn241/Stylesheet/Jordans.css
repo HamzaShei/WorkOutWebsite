@@ -1,0 +1,53 @@
+body{
+	font-family: cursive; /* Requirement 1*/
+	background-color: #d8fef7; /* Requirement 2*/
+	color:	#5c0057; /* Requirement 3*/
+	font-size:16px; /* Requirement 4*/
+	}
+
+
+h1, h2{ /* Requirement 7. Defines more than one */
+	color: #0008f7;
+	font-size: 35px; /* Requirment 9. Font rule other than body */
+}
+
+
+
+#Facts{ /* Requirement 6. Make a style id */
+	font-family:monospace;
+	font-size: 20px;
+}
+
+
+/* Requirement 5. Make four classes */
+
+p.pairs{
+	color: red; /* Requirment 11. define a color by name */
+	font-size: 15px;
+}
+
+p.jordan1{
+	color: darkred;
+	font-size: 15px;
+}
+
+p.collab{
+	color: red;
+	font-size: 15px;	
+}
+
+p.cited{
+	font-family: serif;
+	text-align: center;
+	color: black;
+	font-size: 35px;
+}
+h2{
+	font-family: serif; /* Requirement 8*/
+	font-weight: bold; /* Requirement 12*/
+	font-size: 35px;
+	}
+h1	{
+	border-bottom: 3px solid #ccc; /* Requirement 10*/
+	
+}
